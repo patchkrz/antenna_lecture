@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='dL=\'60mm\' dR=\'1mm\' gL=\'1mm\''
+		Status=true
+		FileName='VI6BC39792162429048011.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

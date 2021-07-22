@@ -1,0 +1,23 @@
+% I0=1;
+% freq=3e8;
+% c=3e8;
+% lambda=c/freq;
+% eta=377;
+% k=2*pi/lambda;
+% ac=0.2; %radius of loop
+% a=ac*lambda;
+% %n=1; %kind of bessel function
+% r=2*(2*pi*ac)^2/lambda;
+% theta=linspace(0,2*pi,200);
+% phi=linspace(0,2*pi,200);
+% J=besselj(1,k*ac*sin(theta));
+% E=((k*ac*eta)/2).*(exp(-1j*k*r)/(r))*I0*J;
+% H=(-E./eta);
+% polarplot(theta,abs(E)./max(E))
+% polarplot(theta,abs(H)./abs(max(H)))
+% Rad=E+H;
+% MagRad=10*log10(b );
+% polarplot(theta,MagRad)
+% ax=gca;
+% ax.ThetaZeroLocation='top';
+% axis([min(theta) max(theta)])

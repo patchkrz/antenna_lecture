@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='gap=\'5mm\' h=\'6cm\' rad=\'5mm\''
+		Status=true
+		FileName='VI32791182016237340992.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

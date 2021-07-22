@@ -1,0 +1,176 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=7
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='Z(1,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='Zo(1, 1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='Gamma(1:1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='Volume(Dipole)'
+			ValueState(787, 14, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='GainTotal'
+			ValueState(90, 15, 0, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='DirTotal'
+			ValueState(90, 15, 0, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=17
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=18
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=3
+						SimValueContext(0, 0, 2, 0, false, false, 9, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'54mm\' dR=\'1mm\' Freq=\'2.5GHz\' gL=\'1mm\''
+							MinorCacheFile='min25BD17448162437530087.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=3
+						SimValueContext(0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'54mm\' dR=\'1mm\' Freq=\'2.5GHz\' gL=\'1mm\''
+							MinorCacheFile='min25BD17448162437530088.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=21
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'60mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min72B69792162429102517.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'49mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min512617448162434860024.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min5BEA17448162434944439.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'52mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min5BEA17448162434944440.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'56mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min5BEA17448162434944443.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'57mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min5BEA17448162434944444.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'58mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min5BEA17448162434944445.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'53mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min7BB717448162435193768.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'54mm\' dR=\'1mm\' gL=\'1mm\''
+							MinorCacheFile='min7E7617448162435215277.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'0.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151255.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'54mm\' dR=\'0.5mm\' gL=\'1mm\''
+							MinorCacheFile='min25BD17448162437530089.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'1.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151256.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'2.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151257.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'3.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151258.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'4.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151259.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='dL=\'55mm\' dR=\'5.5mm\' gL=\'1mm\''
+							MinorCacheFile='min764C17448162435151260.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

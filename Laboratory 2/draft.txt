@@ -1,0 +1,26 @@
+% syms theta
+% 
+% eta=120*pi;
+% I0=1;
+% lc=0.5;
+% c=3e8;
+% freq=3e8;
+% lambda=c/freq;
+% k=2*pi/lambda;
+% l=lambda*lc;
+% 
+% %(cos((k*l/2)*cos(theta))-cos((k*l/2)))^2/sin(theta)
+% p=(eta*(abs(I0)^2/(4*pi)))*((cos((k*l/2)*cos(theta))-cos((k*l/2))).^2./sin(theta));
+% theta=linspace(0,pi,200);
+
+% [l(1),Prad(1)]=radiated_power_function(3e8,0.5,1);
+% [l(2),Prad(2)]=radiated_power_function(3e8,1,1);
+% [l(3),Prad(3)]=radiated_power_function(3e8,1.5,1);
+% [l(4),Prad(4)]=radiated_power_function(3e8,1.7,1);
+% [l(5),Prad(5)]=radiated_power_function(3e8,1.9,1);
+% [l(6),Prad(6)]=radiated_power_function(3e8,2,1);
+% [l(7),Prad(7)]=radiated_power_function(3e8,2.5,1);
+% [l(8),Prad(8)]=radiated_power_function(3e8,3,1);
+% stem(l,Prad)
+
+%Rin=(2.*Prad)./(sin(k.*l/2)).^2;
